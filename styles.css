@@ -1,0 +1,49 @@
+
+/* Cambiar el estilo de la barra lateral */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(to right, #ff6b6b, #f0f0f0);
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    padding: 1rem;
+}
+
+/* Estilo de los encabezados en la barra lateral */
+section[data-testid="stSidebar"] h1, section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Estilo de los íconos y texto en las opciones */
+.stRadio > label {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Efecto de hover */
+.stRadio > label:hover {
+    background-color: #f7f7f7;
+    transition: background-color 0.3s ease;
+}
+
+/* Resaltar la opción seleccionada */
+.stRadio > label[data-selected="true"] {
+    background-color: #ff6b6b;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo de los íconos */
+.stRadio > label > i {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Cambiar el color de los iconos cuando se pasa el mouse */
+.stRadio > label:hover > i {
+    color: white;
+}

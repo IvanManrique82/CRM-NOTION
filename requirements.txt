@@ -1,0 +1,7 @@
+
+streamlit
+streamlit-multiselect-dropdown
+pandas
+requests
+altair
+openpyxl
